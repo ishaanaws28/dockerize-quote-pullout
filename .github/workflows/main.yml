@@ -1,3 +1,11 @@
+name: A workflow for my dockerize pullout application
+on: push
+jobs:
+  build:
+    name:  dockerize pullout application
+    runs-on: ubuntu-latest
+    steps:
+
 docker build -t pullquote .
 docker run -d -p 80:80 pullquote
 docker-machine ip default
