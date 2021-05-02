@@ -8,4 +8,4 @@ jobs:
 
 docker build -t pullquote .
 
-docker-machine ip default
+
