@@ -7,5 +7,5 @@ jobs:
     steps:
 
 docker build -t pullquote .
-docker run -d -p 80 pullquote
+
 docker-machine ip default
